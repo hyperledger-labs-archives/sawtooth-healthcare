@@ -10,7 +10,7 @@ logging.basicConfig(level=logging.INFO)
 LOGGER = logging.getLogger(__name__)
 
 
-REST_URL = 'http://localhost:8040'
+REST_URL = 'http://localhost:8040'  # address on local machine
 
 
 class WorkflowTest(unittest.TestCase):
